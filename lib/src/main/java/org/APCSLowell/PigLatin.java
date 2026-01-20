@@ -9,6 +9,7 @@ public class PigLatin {
             else if(word.substring(i,i+1).equals("i") || word.substring(i,i+1).equals("o"))return i;
             else if(word.substring(i,i+1).equals("u"))return i;}
         return -1;
+        
     }
 
     public String pigLatin(String sWord) {
